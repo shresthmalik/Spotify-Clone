@@ -154,7 +154,7 @@ nav ul li{
 }
 
 .main-content{
-    height: 285vh;
+    height: 205vh;
     width: 80%;
     grid-auto-columns: auto;
     background-color: black;
