@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+body{
+    background-image: url("assets/images/bg.jpg");
+    background-color: #03c04a;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    flex-direction: column;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: cyan;
+  text-decoration: none;
+  opacity: 150%;
+}
+
+/* selected link */
+a:active {
+  color: green;
+  text-decoration: none;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    
+    padding-left: 10px;
+    padding-right: 60px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    font-family: "Monotype Corsiva";
+}
+
+.Home-Container {
+  display: grid;
+  grid: 750px / 400px 1200px;
+  grid-gap: 5px;
+  padding: 5px;
+  grid-auto-columns: auto;
+  grid-auto-rows: auto;
+  grid-auto-flow: row;
+  margin-bottom: 30px;
+}
+
+.left-content{
+
+    height : 133vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: #0492c2;
+    background-image: url("assets/images/leftbg.jpg");
+    background-size: cover;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 30px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.left-content h3{
+    margin-bottom: 20px;
+
+}
+.left-content .artist h4{
+    margin-top: 10px;
+    color: #82eefd;
+    font-size: 25px;
+    font-family: "Monotype Corsiva";
+    text-align: center;
+
+}
+
+.left-content li{
+    color: #b0fc38;
+    font-size: 15px;
+    font-family: "Bahnschrift";
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+}
+
+.left-content li a:link{
+    color: #b0fc38;
+    font-size: 15px;
+    font-family: "Bahnschrift";
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+}
+
+.left-content li a:visited{
+    color: #b0fc38;
+    font-size: 15px;
+    font-family: "Bahnschrift";
+    text-align: center;
+}
+
+.left-content li a:hover{
+    color: #b0fc38;
+    font-size: 15px;
+    font-family: "Bahnschrift";
+    text-align: center;
+}
+
+.left-content li a:active{
+    color: #b0fc38;
+    font-size: 15px;
+    font-family: "Bahnschrift";
+    text-align: center;
+}
+
+.main-content{
+    height: 285vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content h1{
+    font-family: "Lucida Calligraphy";
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.main-content h2{
+    font-family: "Monotype Corsiva";
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+.main-content .grid-container {
+  display: grid;
+  grid: 270px / 290px 290px 290px;
+  grid-auto-flow: row;
+  grid-auto-columns: auto;
+  grid-auto-rows: 290px;
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+.main-content .grid-item{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    height : 80px;
+}
+
+.main-content .grid-item img{
+
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+    height: 220px;
+    caption-side: bottom;
+    border-radius: 40px;
+
+}
+
+.main-content .grid-item figure{
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+}
+
+.main-content .grid-item figcaption{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+.main-content .grid-item a{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-about{
+    height: 135vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-about h2{
+    font-family: "Vivaldi";
+    font-size: 80px;
+    color: yellow;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-about h3{
+    font-family: "Agency FB";
+    font-size: 40px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-about h4{
+    font-family: "Bahnschrift";
+    font-size: 15px;
+    color: grey;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-about .grid-container {
+  display: grid;
+  grid: 270px / 290px 290px 290px;
+  grid-auto-flow: row;
+  grid-auto-columns: auto;
+  grid-auto-rows: 290px;
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+.main-content-about .grid-item{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    height : 80px;
+}
+
+.main-content-about .grid-item img{
+
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+    height: 220px;
+    caption-side: bottom;
+    border-radius: 40px;
+
+}
+
+.main-content-about .grid-item figure{
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+}
+
+.main-content-about .grid-item figcaption{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+.main-content-about .grid-item a{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-ac-dc{
+    height: 235vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-ac-dc h1{
+    font-family: "Lucida Calligraphy";
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.main-content-lovers-paradise{
+    height: 270vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-light-hearts{
+    height: 305vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-yyhs-iv{
+    height: 155vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-yyhs-dk{
+    height: 155vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-yyhs-party{
+    height: 190vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-eminem-hits{
+    height: 170vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.main-content-eminem-recovery{
+    height: 190vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.main-content-eminem-8-mile{
+    height: 195vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.main-content-eminem-kamikaze{
+    height: 155vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-aashiqui-2{
+    height: 155vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-rockstar{
+    height: 155vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-ek-villain{
+    height: 155vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-znmd{
+    height: 155vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-khamoshiyan{
+    height: 155vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-roy{
+    height: 155vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-2-states{
+    height: 155vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-talaash{
+    height: 155vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-content-yjhd{
+    height: 155vh;
+    width: 80%;
+    grid-auto-columns: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0;
+    height: 130px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.footer{
+    display: block;
+    border-top: 1px solid rgba(250,250,250,0.15);
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    font-family: "Freestyle script";
+    font-size: 40px;
+    color: #028a0f;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 50px;
+}
+
+.songItem{
+    height: 50px;
+    width: 90%;
+    display: flex;
+    background-color: #99edc3;
+    color: black;
+    margin: 15px 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
